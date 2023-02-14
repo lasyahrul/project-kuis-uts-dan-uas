@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    background-image: url('../img/back2.jpg');
+}
+
+.content{
+    background-color: white;
+    padding: 25px;
+    border-radius: 3px;
+    min-height: 400px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #133025;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    color: rgb(22, 22, 24);
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+.tengah{
+    text-align: center;
+}
+
+img{
+    width: 75px;
+    margin-right: 10px;
+}
+
+ul.menu{
+    padding: 15px;
+    border-radius: 3px;
+    background: #06beb6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: sticky;
+    top: 0;
+}
+
+ul.menu > li{
+    display: inline-block;
+    margin:0px 10px;
+}
+
+ul.menu > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+ul.menu > li > a:hover{
+    color: black;
+}
+
+a.nav{
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+table.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.table td{
+    border-bottom:1px solid black;
+    padding: 5px 15px;
+}
+
+table.table th {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    background-color: #eee;
+    padding: 5px 0px;
+}
+
+fieldset{
+    padding: 20px;
+    border:1px solid #ccc;
+    border-radius: 3px;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    padding:10px 15px;
+    margin:5px 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+input:focus{
+    background-color: rgb(251, 251, 251);
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    padding:5px 15px;
+    margin:5px 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    resize: none;
+}
+
+button{
+    margin-top: 5px;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+button.success{
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+button:hover.success{
+    color: black;
+    background: #5d8a45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8DC26F, #76b852); 
+}
+
+button.warning{
+    background: #ffb347;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button.danger{
+    background: #a73737;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
